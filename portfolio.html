@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>View My Work</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body id="bg-img">
+
+        <!-- Header -->
+
+        <header class="page-header">
+            <nav class="main-nav">
+                <i class="fas fa-bars fa-2x mobile-btn" onclick="toggleMenu()"></i>
+                <ul id="menu">
+                    <i class="fas fa-times close-btn" onclick="toggleMenu()"></i>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About Me</a></li>
+                    <li class="nav-item"><a href="portfolio.html">My Work</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+
+        <main id="portfolio">
+            <h1 class="lg-heading">My <span class="text-secondary">Work</span></h1>
+            <h2 class="sm-heading">Check out some of my projects...</h2>
+            <div class="projects">
+                <div class="item">
+                    <h3 class="project-name">Acme Web Design</h3>
+                    <img src="img/projects/project1.jpg" alt="Acme Web Design Screenshot">
+                    <a href="https://thefozcat.github.io/Acme-Web-Design/" target="_blank" class="btn btn-light"><i class="fas fa-eye"></i> View Project</a>
+                    <a href="https://github.com/thefozcat/Acme-Web-Design.git" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Github</a>
+                    
+                </div>
+                <div class="item">
+                    <h3 class="project-name">Web-Biz.com</h3>
+                    <img src="img/projects/project2.jpg" alt="Web-Biz.com Screenshot">
+                    <a href="https://thefozcat.github.io/Web-Biz/" target="_blank" class="btn btn-light"><i class="fas fa-eye"></i> View Project</a>
+                    <a href="https://github.com/thefozcat/Web-Biz.git" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Github</a>
+                </div>
+                <div class="item">
+                    <h3 class="project-name">Fiddler & Rye</h3>
+                    <img src="img/projects/project3.jpg" alt="Fiddler & Rye Screenshot">
+                    <a href="https://thefozcat.github.io/Fiddler-and-Rye/" target="_blank" class="btn btn-light"><i class="fas fa-eye"></i> View Project</a>
+                    <a href="https://github.com/thefozcat/Fiddler-and-Rye" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Github</a>
+                </div>
+                <div class="item">
+                    <h3 class="project-name">Acme Web Solutions</h3>
+                    <img src="img/projects/project4.jpg" alt="Acme Web Solutions Screenshot">
+                    <a href="https://thefozcat.github.io/Acme-Web-Solutions/" target="_blank" class="btn btn-light"><i class="fas fa-eye"></i> View Project</a>
+                    <a href="https://github.com/thefozcat/Acme-Web-Solutions.git" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> Github</a>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+
+        <footer id="main-footer">
+            Mario Amaya | Web Developer
+        </footer>
+
+        <script src="js/main.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mario Amaya | Web Developer</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body id="bg-img">
+
+        <!-- Header -->
+
+        <header class="page-header">
+            <nav class="main-nav">
+                <i class="fas fa-bars fa-2x mobile-btn" onclick="toggleMenu()"></i>
+                <ul id="menu">
+                    <i class="fas fa-times close-btn" onclick="toggleMenu()"></i>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About Me</a></li>
+                    <li class="nav-item"><a href="portfolio.html">My Work</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+
+        <main id="contact">
+            <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
+            <h2 class="sm-heading">This is how you can reach me...</h2>
+
+            <form action="https://formspree.io/thefozcat@gmail.com" method="POST">
+                <p>
+                    <label>Name</label>
+                    <input type="text" name="name">
+                </p>
+                <p>
+                    <label>Company</label>
+                    <input type="text" name="company">
+                </p>
+                <p>
+                    <label>Email Address</label>
+                    <input type="email" name="email">
+                </p>
+                <p>
+                    <label>Phone Number</label>
+                    <input type="text" name="phone">
+                </p>
+                <p class="message">
+                    <label>Message</label>
+                    <textarea name="message" rows="5"></textarea>
+                </p>
+                <p class="submit">
+                    <button>Submit</button>
+                </p>
+            </form>
+            
+        </main>
+
+        <!-- Footer -->
+
+        <footer id="main-footer">
+            Mario Amaya | Web Developer
+        </footer>
+    
+        <script src="js/main.js"></script>
+
+    </body>
+
+</html>
