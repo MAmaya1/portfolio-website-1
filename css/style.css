@@ -181,6 +181,11 @@ header {
   grid-gap: 0.7rem;
 }
 
+#portfolio p {
+  padding: 0 0.5rem;
+  height: 70px;
+}
+
 .project-name {
   padding: 0.5rem;
   font-weight: 500;
@@ -188,7 +193,7 @@ header {
 
 .projects img {
   width: 100%;
-  border: 3px solid var(--secondary-color);
+  border: 3px solid var(--highlight);
 }
 
 /* Buttons */
@@ -256,14 +261,6 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.7rem;
-  }
-
-  #contact form {
-    display: block;
-  }
-
-  #contact form p {
-    padding: 0.7rem;
   }
 
 }
@@ -362,6 +359,10 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 0.7rem;
+  }
+
+  #portfolio p {
+    height: auto;
   }
   
 }
